@@ -18,7 +18,9 @@
         "react"
     ],
     "rules": {
-        "semi": 0
+        "semi": 0,
+        "indent": ["warn", 4],
+        "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
     },
     "settings": {
         "react": {
