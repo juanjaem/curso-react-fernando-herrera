@@ -7,9 +7,7 @@ export const useFectchGifs = (category) => {
         data: [],
         loading: true
     })
-    console.log('11111');
     useEffect(() => {
-        console.log('22222');
         getGifs(category).then(imgs =>
             setstate({ data: imgs, loading: false })
         );
